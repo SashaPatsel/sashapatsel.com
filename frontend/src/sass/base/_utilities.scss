@@ -291,36 +291,36 @@
   }
 
   &-background {
-    &-blue {
-      background-color: $blue;
+    &-primary {
+      background-color: $color-primary;
     }
 
-    &-darkblue {
-      background-color: $darkblue;
+    &-primary-dark {
+      background-color: $color-primary-dark;
     }
   }
 
   // COLOR
 
   &-color {
-    &-blue {
-      color: $blue !important;
+    &-primary {
+      color: $color-primary !important;
     }
 
     &-white {
       color: white !important;
     }
 
-    &-darkblue {
-      background-color: $darkblue;
+    &-primary-dark {
+      background-color: $color-primary-dark;
     }
   }
 
   &-hover {
     &-color {
-      &-yellow {
+      &-secondary {
         &:hover {
-          color: $yellow !important;
+          color: $color-secondary !important;
           cursor: pointer;
           transition: 0.2s;
         }

@@ -5,12 +5,12 @@
   &__btn {
     padding: 1.5rem;
     border: none;
-    background-color: $blue;
+    background-color: $color-primary;
     &:hover {
-      background-color: $darkblue;
+      background-color: $color-primary-dark;
     }
     &:focus {
-      background-color: $darkblue;
+      background-color: $color-primary-dark;
       border-radius: 0;
       outline: none;
     }

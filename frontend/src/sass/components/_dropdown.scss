@@ -12,22 +12,22 @@
     align-items: center;
     justify-content: space-between;
     font-family: $header-font;
-    box-shadow: $shadow-button-default;
+    box-shadow: $shadow-light;
     
     width: 100%;
     padding: 1rem;
     border: none;
-    background-color: $blue;
+    background-color: $color-primary;
     color: white;
     
     &:hover {
-      background-color: $darkblue;
-      color: $yellow;
+      background-color: $color-primary-dark;
+      color: $color-secondary;
       cursor: pointer;
-      box-shadow: $shadow-button-hover;
+      box-shadow: $shadow-dark;
 
       & .icon--sm {
-        color: $yellow !important;
+        color: $color-secondary !important;
       }
     }
     

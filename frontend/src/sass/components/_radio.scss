@@ -39,7 +39,7 @@
     &__button {
         height: 1.6rem;
         width: 1.6rem;
-        border: 2px solid $blue;
+        border: 2px solid $color-primary;
         border-radius: 50%;
         display: inline-block;
         position: relative;
@@ -55,14 +55,14 @@
             top:50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: $darkblue;
+            background-color: $color-primary-dark;
             opacity: 0; 
             transition: opacity .2s;
         }
 
         &:hover {
-            background-color: rgba($darkblue, .3);
-            border: 2px solid $darkblue;
+            background-color: rgba($color-primary-dark, .3);
+            border: 2px solid $color-primary-dark;
         }
 
 
@@ -70,12 +70,12 @@
             border: 2px solid white;
 
             &::after {
-                background-color: $yellow;
+                background-color: $color-secondary;
             }
 
             &:hover {
-                background-color: rgba($yellow, .3);
-                border: 2px solid $yellow;
+                background-color: rgba($color-secondary, .3);
+                border: 2px solid $color-secondary;
             }
         }
 

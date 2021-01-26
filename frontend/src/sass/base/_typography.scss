@@ -38,7 +38,7 @@ label {
         }
     }
     &__3 {
-        color: $orange;
+        color: $color-primary;
         font-size: 2.8rem;
         font-weight: 700;
         &--ko {
@@ -51,7 +51,7 @@ label {
     }
     &__4 {
 
-        color: $orange;
+        color: $color-primary;
         font-size: 2.4rem;
         &--ko {
             color: $color-secondary;
@@ -76,7 +76,7 @@ label {
 .paragraph {
     &__1 {
         font-family: $paragraph-font;
-        color: $darkgray;
+        color: $color-slate;
         font-size: 1.8rem;
         font-weight: 400;
         line-height: 1.5;
@@ -87,7 +87,7 @@ label {
     }
     &__2 {
         font-family: $paragraph-font;
-        color: $darkgray;
+        color: $color-slate;
         font-size: 1.6rem;
         line-height: 1.5;
         font-weight: 400;
@@ -102,7 +102,7 @@ label {
 
 .subtext {
     font-family: $paragraph-font;
-    color: $gray !important;
+    color: $color-gray !important;
     font-size: 1.6rem;
     font-weight: 400;
     &--ko {
@@ -122,7 +122,7 @@ label {
     }
 
     &--alt {
-        color: $gray;
+        color: $color-gray;
         &:hover {
             color: $color-primary;
         }

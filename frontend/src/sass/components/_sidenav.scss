@@ -19,13 +19,13 @@
         width: 100%;
         padding: 1rem;
         border: none;
-        background-color: $blue;
+        background-color: $color-primary;
         color: white;
 
 
         &:hover {
-            background-color: $darkblue;
-            color: $yellow;
+            background-color: $color-primary-dark;
+            color: $color-secondary;
             cursor: pointer;
         }
 
@@ -44,11 +44,11 @@
             padding: 1rem;
             border: none;
             background-color: white;
-            color: $blue;
+            color: $color-primary;
 
             &:hover {
-                // background-color: $lightgray;
-                background-color: $yellow;
+                // background-color: $color-gray;
+                background-color: $color-secondary;
                 cursor: pointer;
             }
             &:focus {

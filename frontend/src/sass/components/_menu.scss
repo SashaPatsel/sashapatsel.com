@@ -1,16 +1,16 @@
 .menu {
-  background-color: $blue;
+  background-color: $color-primary;
   color: white;
   display: flex;
   flex-direction: column;
 
   &--dark {
-    background-color: $darkblue;
+    background-color: $color-primary-dark;
   }
 
   &--ko {
     background-color: white;
-    color: $blue;
+    color: $color-primary;
 
 
   }
@@ -20,26 +20,26 @@
     font-family: Arial, Helvetica, sans-serif;
 
     &:hover {
-      background-color: $midblue;
-      color: $yellow;
+      background-color: $color-primary-light;
+      color: $color-secondary;
       cursor: pointer;
       text-decoration: none;
     }
 
     &:active {
-      background-color: $darkblue;
-      color: $yellow;
+      background-color: $color-primary-dark;
+      color: $color-secondary;
     }
 
     &--ko {
       &:hover {
-        background-color: $lightyellow;
-        color: $blue;
+        background-color: $color-secondary-light;
+        color: $color-primary;
       }
       
       &:active {
-        background-color: $yellow;
-        color: $blue;
+        background-color: $color-secondary;
+        color: $color-primary;
       }
     }
   }

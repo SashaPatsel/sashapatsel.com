@@ -30,21 +30,10 @@
 
 .alert-toast {
     background-color: $color-slate !important;
-    // background-color: $tans-black !important;
-    color: $color-grey-light-2 !important;
+    // background-color: $tans-black !important; 
+    color: $color-gray !important;
     font-weight: 900 !important;
     font-size: 1.6rem !important;
     padding: 1rem 2rem 2rem 2rem !important;
 
-    &__success {
-        background: $color-success !important;
-    }
-
-    &__error {
-        background: $color-error !important;
-    }
-
-    &__warning {
-        background: $color-secondary !important;
-    }
 }

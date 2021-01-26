@@ -19,7 +19,7 @@
     }
 
     &__item {
-        background-color: $color-grey-light-2;
+        background-color: $color-gray;
         flex: 1;
         border-radius: $border-rad-sm;
         padding: 1rem;
@@ -61,7 +61,7 @@
 
     &__options {
         font-size: 1rem;
-        color: $color-grey-dark-2 !important;
+        color: $color-slate !important;
 
         &--container {
             position: absolute;
@@ -87,7 +87,7 @@
         box-shadow: 0 1rem 5rem rgba(0,0,0,.6);
 
         &:hover {
-            background-color: $color-grey-light-2;
+            background-color: $color-gray;
         }
 
         &--delete {
@@ -95,7 +95,7 @@
 
             &-icon {
                 font-size: 1.5rem;
-                color: $color-grey-dark-2 !important;
+                color: $color-slate !important;
                 margin-right: .5rem;
             }
         }
@@ -110,8 +110,8 @@
             min-height: 5rem;
             width: 100%;
             background-color: rgba(0,0,0,.8);
-            color: $color-grey-light-2 !important;
-            border-top: 1px solid $color-grey-dark-2;
+            color: $color-gray !important;
+            border-top: 1px solid $color-slate;
             padding: .5rem 1rem;
             @include center-flex;
             overflow: auto;

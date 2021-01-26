@@ -15,7 +15,7 @@
     width: 30px;
     height: 30px;
     background-color: $color-primary;
-    color: $color-grey-light-2 !important;
+    color: $color-gray !important;
     border-radius: 5px;
     margin-left: 3rem;
     display: flex;
@@ -49,18 +49,18 @@
     background-color: $color-primary !important;
     // background-color: $color-secondary !important;
 
-    border: 2px solid $color-grey-light-2 !important;
+    border: 2px solid $color-gray !important;
 
     &-active {
       background-color: $color-primary !important;
       // background-color: $color-secondary !important;
-      border: 2px solid $color-grey-light-2 !important;  
+      border: 2px solid $color-gray !important;  
     }
   }
 
   &-handle {
     background-color: $color-primary !important;
-    border: 2px solid $color-grey-light-2 !important;  
+    border: 2px solid $color-gray !important;  
     height: 19px !important;
     width: 19px !important;
   }
